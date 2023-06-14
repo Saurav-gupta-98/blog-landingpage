@@ -174,3 +174,25 @@ body {
     color: #fff;
     text-align: center;
   }
+@media (min-width: 768px) {
+
+  header {
+    padding: 20px;
+  }
+
+  nav ul li {
+    margin-right: 20px;
+  }
+
+  main {
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1024px) {
+ 
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
